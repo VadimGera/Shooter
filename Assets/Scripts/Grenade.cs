@@ -7,10 +7,10 @@ using UnityEngine.Experimental.GlobalIllumination;
 
 public class Grenade : MonoBehaviour
 {
-    [SerializeField]public float delay = 3f;
-    [SerializeField]public float radius = 5f;
-    [SerializeField]public float force = 700f;
-    [SerializeField]public float damage = 80f;
+    [SerializeField] private float delay = 3f;
+    [SerializeField] private float radius = 5f;
+    [SerializeField] private float force = 700f;
+    [SerializeField] private float damage = 80f;
     
     
     public GameObject explosionEffect;
